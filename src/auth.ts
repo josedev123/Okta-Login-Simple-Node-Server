@@ -3,7 +3,7 @@ import { Request, Response, NextFunction} from 'express';
 const OktaJwtVerifier = require('@okta/jwt-verifier');
 
 const oktaJwtVerifier = new OktaJwtVerifier({
-  clientId: '0oajfcdjtzskVg5wp0h7',
+  clientId: {{ClientId}},
   issuer: 'https://dev-427522.oktapreview.com/oauth2/default'
 });
 
